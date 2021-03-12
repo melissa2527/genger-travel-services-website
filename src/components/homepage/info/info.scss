@@ -1,0 +1,8 @@
+.info-container {
+    height: 100vh;
+
+    .info-photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
