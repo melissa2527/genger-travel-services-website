@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     color: #fff;
+    margin-top: -10vh;
 }
 
 .banner-container:after {
@@ -44,16 +45,24 @@
     z-index: -2;
 }
 
-.banner-text {
+.text-container {
     width: 60%;
     padding: 35% 10% 25% 10%;
     text-align: center;
     color: whitesmoke;
 
+    .banner-text {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+
     h1 {
         text-transform: uppercase;
         font-size: 3rem;
         text-shadow: 2px 2px #232323;
+        padding-bottom: 0.5rem;
+        box-shadow: 5px 5px yellow;
     }
 
     h3 {
@@ -64,5 +73,5 @@
 
 @keyframes increase {
     0% {transform: scale(1)}
-    100% {transform: scale(1.2)}
+    100% {transform: scale(1.35)}
 }
