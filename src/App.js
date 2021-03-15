@@ -5,7 +5,7 @@ import { Gallery } from './components/gallery/Gallery';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{'overflowX': 'hidden'}}>
       <NavBar/>
       <Switch>
         <Route exact path='/' component={Homepage}/>
