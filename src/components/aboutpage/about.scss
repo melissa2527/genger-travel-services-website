@@ -1,0 +1,32 @@
+.about-container {
+    width: 100vw;
+
+    .about-section {
+        margin: 3rem;
+    }
+
+    .about-photo {
+        width: 40%;
+        border-radius: 40%;
+        box-shadow: 5px 5px 5px #232323;
+    }
+
+    .compass {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 2rem;
+        }
+    }
+
+    p {
+        font-size: 120%;
+        font-style: italic;
+        margin: 1rem;
+    }
+
+    .about-text {
+        border: 3px solid darkblue;
+    }
+}

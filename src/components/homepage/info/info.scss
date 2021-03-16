@@ -1,8 +1,39 @@
 .info-container {
-    height: 100vh;
+    // height: 100vh;
+    // width: 100vw;
+    padding: 2rem;
+    background-color: #2e3192;
+    color: #fff;
+
+    h2 {
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+        text-shadow: 2px 2px #232323;
+        // padding-bottom: 0.5rem;
+        // box-shadow: 5px 5px yellow;
+    }
+
+    p {
+        width: 85%;
+        margin: 0 auto;
+        font-size: 1.3rem;
+    }
 
     .info-photos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 2rem;
+
+        img {
+            border-radius: 5px;
+        }
+
+        .caption {
+            margin-bottom: 2rem;
+        }
     }
 }

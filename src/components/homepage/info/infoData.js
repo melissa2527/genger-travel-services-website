@@ -5,13 +5,18 @@ export const infoData = [
         caption: 'Lake Bled, Slovenia'
     },
     {
-        name: 'Tonle Sap',
-        image: 'img/tonle-sap.jpg',
-        caption: 'Tonle Sap, Cambodia'
+        name: 'Prague',
+        image: 'img/prague.jpg',
+        caption: 'Prague, Czech Republic'
     },
     {
         name: 'Santorini',
         image: 'img/santorini.jpg',
         caption: 'Santorini, Greece'
+    },
+    {
+        name: 'Monaco',
+        image: 'img/monaco.jpg',
+        caption: 'Monaco'
     }
 ]
