@@ -17,9 +17,16 @@ export const Info = () => {
             
             <div className='info-photos'>
             {infoData.map((info, index) => (
-                <div key={index}>
-                    <img src={info.image} alt={info.name} height={200}/>
-                    <div className='caption'>{info.caption}</div>
+                <div key={index} data-aos='fade-up'>
+                    <img src={info.image} alt={info.name} height={280}/>
+                    <div className='caption'>
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            {info.caption}
+                        </span>
+                    </div>
                 </div>
             ))}
              </div>  

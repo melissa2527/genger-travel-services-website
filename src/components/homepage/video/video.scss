@@ -1,0 +1,31 @@
+.video-container {
+    width: 100vw;
+    background-color: #2e3192;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h3 {
+        margin: 2rem auto;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    iframe {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    iframe {
+        width: 450px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    iframe {
+        width: 350px;
+        height: 210px;
+    }
+}

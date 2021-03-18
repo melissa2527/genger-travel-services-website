@@ -4,11 +4,11 @@ export const infoData = [
         image: 'img/lake-bled.jpg',
         caption: 'Lake Bled, Slovenia'
     },
-    {
-        name: 'Prague',
-        image: 'img/prague.jpg',
-        caption: 'Prague, Czech Republic'
-    },
+    // {
+    //     name: 'Prague',
+    //     image: 'img/prague.jpg',
+    //     caption: 'Prague, Czech Republic'
+    // },
     {
         name: 'Santorini',
         image: 'img/santorini.jpg',

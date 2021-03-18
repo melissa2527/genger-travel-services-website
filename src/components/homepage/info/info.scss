@@ -2,14 +2,15 @@
     // height: 100vh;
     // width: 100vw;
     padding: 2rem;
-    background-color: #2e3192;
-    color: #fff;
+    // background-color: #2e3192;
+    color: #232323;
 
     h2 {
         text-align: center;
         padding-top: 3rem;
         font-size: 2rem;
-        text-shadow: 2px 2px #232323;
+        text-decoration: underline #2e3192;
+        // text-shadow: 2px 2px #232323;
         // padding-bottom: 0.5rem;
         // box-shadow: 5px 5px yellow;
     }
@@ -22,18 +23,31 @@
 
     .info-photos {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
 
         img {
             border-radius: 5px;
+            box-shadow: 2px 2px 2px #232323;
         }
 
         .caption {
             margin-bottom: 2rem;
+            border-radius: 5px;
+            margin-top: -0.7rem;
+
+            span {
+                padding: 0.5rem;
+                background-color: yellow;
+                padding: 8px;
+                box-shadow: 2px 2px 2px #232323;
+            }
         }
     }
 }
