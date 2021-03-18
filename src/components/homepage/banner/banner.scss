@@ -75,3 +75,10 @@
     0% {transform: scale(1)}
     100% {transform: scale(1.35)}
 }
+
+@media screen and (max-width: 750px) {
+    .text-container {
+            width: 60%;
+            padding: 45% 10% 15% 10%;
+    }
+}
