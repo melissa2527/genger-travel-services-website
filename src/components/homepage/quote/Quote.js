@@ -1,4 +1,6 @@
 import React, {useEffect} from 'react';
+import {Link} from 'react-router-dom';
+import {Button} from '../../button/Button';
 import './quote.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -16,7 +18,13 @@ export const Quote = () => {
                 <p>St. Augustine</p>
             </div>
             <div className='btn' data-aos='fade-up'>
-                <button>Get Ideas</button>
+                <Link to='/gallery'>
+                    <Button
+                        className='btn'
+                        buttonStyle='btn--primary'
+                        buttonSize='btn--lge'
+                    >Get Ideas</Button>
+                </Link>
             </div>
         </div>
     )

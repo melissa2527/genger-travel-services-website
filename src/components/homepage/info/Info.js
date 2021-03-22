@@ -13,7 +13,7 @@ export const Info = () => {
     return (
         <div className='info-container'>
             <h2 data-aos='fade-up'>Planning a Trip?</h2>
-            <p data-aos='fade-up'>Whether your trip is for business or pleasure, domestic or international, we can help! With an individualized collaborative planning process and a vast network of travel partners, we can coordinate a seamless trip for you! Contact us to learn more.</p>
+            <p data-aos='fade-up'>Whether your trip is for business or pleasure, domestic or international, we can help! With an individualized collaborative planning process and a vast network of travel partners, we can coordinate a seamless trip for you! <a href='mailto:vanessa@gengertravel.com' alt='email'>Contact us</a> to learn more.</p>
             
             <div className='info-photos'>
             {infoData.map((info, index) => (

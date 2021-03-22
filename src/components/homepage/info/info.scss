@@ -21,6 +21,16 @@
         font-size: 1.3rem;
     }
 
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #2e3192;
+    }
+
+    a:hover, a:focus {
+        text-decoration: underline;
+    }
+
     .info-photos {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
